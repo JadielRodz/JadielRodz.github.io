@@ -30,3 +30,13 @@ projects.forEach(project => {
     `;
     projectList.appendChild(projectCard);
 });
+
+// Get the hamburger icon and the navigation links
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+
+// Add click event listener to toggle the 'active' class
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+

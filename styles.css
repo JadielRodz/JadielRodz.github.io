@@ -16,6 +16,13 @@ body {
     min-height: 100vh;
     padding-top: 60px; /* Added space for fixed header */
 }
+/* Hamburger Menu */
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
 
 /* Header & Navigation Bar */
 header {
